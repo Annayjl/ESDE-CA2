@@ -85,7 +85,7 @@ if ($searchDesignFormContainer.length != 0) {
     //to server-side api.
     function clickHandlerForPageButton(event) {
         event.preventDefault();
-        const baseUrl = 'http://localhost:5000';
+        const baseUrl = 'http://54.204.13.30:5000';
         let userId = localStorage.getItem('user_id');
         let pageNumber = $(event.target).text().trim();
         let searchInput = $('#searchInput').val();
