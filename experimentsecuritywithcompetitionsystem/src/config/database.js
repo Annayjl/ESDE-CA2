@@ -8,7 +8,7 @@ const pool = mysql.createPool({
         host: 'my-rds-db.ctya1io0rwu2.us-east-1.rds.amazonaws.com',
         user: 'admin',
         password: '12345678',
-        database: 'competition_system_security_concept',
+        database: 'competition_system_security_concept_db',
         multipleStatements: true //should not be here as it can allow multiple API calls.
     });
 
